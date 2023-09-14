@@ -1,0 +1,16 @@
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+  display: flex;
+  background-color: darkgreen;
+  padding: 1rem;
+  justify-content: space-around;
+}
+nav a{
+  color: bisque;
+  padding: 0.5rem;
+}
+nav a.selected{
+  border: solid 1px bisque;
+}
